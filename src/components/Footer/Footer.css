@@ -1,0 +1,78 @@
+.main-footer {
+  background-image: url(../../assets/images/bg.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: var(--font-base);
+  padding: 4rem 6rem;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.footer-content-lh {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: center;
+}
+.footer-content-lh h6,
+.footer-content-rh h6 {
+  font-size: 2rem;
+}
+
+.footer-content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+.footer-content-center .gericht-Image {
+  width: 16rem;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  color: var(--color-golden);
+}
+
+.footer-content-rh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.9rem;
+}
+.copy-right {
+  background-image: url(../../assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 2rem 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copy-right p {
+  color: var(--color-grey);
+}
+
+/* Mwdia Queries For The Footer Section */
+@media (max-width: 992px) {
+  .main-footer {
+    flex-direction: column;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .footer-content-center p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 274px) {
+  .footer-content-center .gericht-Image {
+    width: 12rem;
+  }
+}

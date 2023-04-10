@@ -1,0 +1,65 @@
+.chef-main {
+  background-image: url(../../assets/images/bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem 6rem;
+  font-family: var(--font-base);
+  color: var(--color-white);
+}
+.chef-Image {
+  width: 40vw;
+}
+.chef-Image img {
+  width: 100%;
+}
+.chef-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+.chef-content h4,
+h6 {
+  color: var(--color-golden);
+  font-size: 3.5rem;
+}
+.chef-content h6 {
+  font-size: 2rem;
+}
+.founder {
+  margin-top: -2rem;
+  color: var(--color-grey);
+}
+.comma {
+  display: flex;
+  align-items: start;
+}
+.comma img {
+  width: 2vw;
+}
+.comma p {
+  width: 40vw;
+  color: var(--color-grey);
+}
+.sign {
+  width: 8rem;
+}
+
+/* Media Queries For The Chef Section */
+@media (max-width: 992px) {
+  .chef-main {
+    flex-direction: column;
+    padding: 4rem 1rem;
+  }
+  .comma p {
+    text-align: center;
+    width: 100%;
+  }
+  .chef-Image {
+    width: 100%;
+  }
+}

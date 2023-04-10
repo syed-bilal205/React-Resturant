@@ -1,0 +1,58 @@
+.main-find-us {
+  background-image: url(../../assets/images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.find-us-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.5rem;
+  color: white;
+}
+.find-us-content img {
+  margin-top: -1.5rem;
+}
+.find-us-content h5 {
+  font-size: 4rem;
+  color: var(--color-golden);
+}
+.find-us-content h6 {
+  font-size: 2rem;
+  color: var(--color-golden);
+}
+.find-us-content p {
+  color: var(--color-grey);
+}
+
+.find-us-image {
+  width: 40vw;
+}
+.find-us-image img {
+  width: 100%;
+}
+
+/* Media Queries For The Find Us Section */
+@media (max-width: 992px) {
+  .main-find-us {
+    flex-direction: column;
+    padding: 4rem 1rem;
+  }
+  .find-us-image {
+    width: 100%;
+  }
+  .find-us-content {
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+  }
+  .find-us-content img {
+    margin-top: -2rem;
+  }
+}
